@@ -7,5 +7,6 @@
 
 ## TFTNet
 3개의 FC layer로 구성된 단순한 신경망 모델입니다. 특이한 점은 loss function을 자체적으로 고안하여, MSE와 pointwise-pair loss가 결합된 hybrid loss function을 사용했습니다. 수식은 아래와 같습니다.
+\\
 <img width="684" alt="image" src="https://github.com/01tilinfinity/TFTNet/assets/137471403/3652a3aa-aab7-41a9-b8ec-44d497f9933f">
 
