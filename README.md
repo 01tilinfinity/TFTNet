@@ -8,4 +8,4 @@
 ## TFTNet
 3개의 FC layer로 구성된 단순한 신경망 모델입니다. 특이한 점은 loss function을 자체적으로 고안하여, MSE와 pointwise-pair loss가 결합된 hybrid loss function을 사용했습니다. 수식은 아래와 같습니다.
 
-` $\textit{HybridLoss} = \alpha \cdot \left( \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 \right) + \beta \cdot \left( \frac{1}{m} \sum_{(i,j) \in P} \max(0, 1 - (s_i - s_j)) \right) $`
+$ \textit{HybridLoss} = \alpha \cdot \left( \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 \right) + \beta \cdot \left( \frac{1}{m} \sum_{(i,j) \in P} \max(0, 1 - (s_i - s_j)) \right) $
